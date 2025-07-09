@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## [풀스택 완성] Supabase로 웹사이트 3개 클론하기
 
-## Getting Started
+인프런 강의 >
 
-First, run the development server:
+> https://inf.run/wX6Xr
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 이런 걸 배울 수 있어요
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Supabase로 서버없이 풀스택 개발을 하는 법 (회원인증, 파일 업로드, 실시간 채팅)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js 14버전 (feat. App Router, Server Action)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+카카오 OAuth 로그인 구현
 
-## Learn More
+Tailwind CSS, React Query, Recoil 라이브러리
 
-To learn more about Next.js, take a look at the following resources:
+Vercel과 AWS를 통한 프로젝트 배포방법
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+무한 스크롤, 드래그 앤 드롭 기능 구현
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+도메인 구매 및 연동
 
-## Deploy on Vercel
+## 배포
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+배포된 링크를 추후 여기에 모아둘 예정.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+(아마도 각각의 서비스들은 또 다시 레포지토리를 파서 코드를 저장할 듯 하다. -어차피 배포하려면 레포지토리 있어야 함)

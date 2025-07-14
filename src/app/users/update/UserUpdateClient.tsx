@@ -1,6 +1,7 @@
 'use client';
 
 import { userState } from '@/app/recoil/atoms';
+import Link from 'next/link';
 import { useRecoilState } from 'recoil';
 
 export default function UserUpdateClient() {
@@ -27,6 +28,8 @@ export default function UserUpdateClient() {
           }
         />
       </div>
+
+      <Link href="/users/update-user">업데이트된 페이지로 이동하기</Link>
     </>
   );
 }
